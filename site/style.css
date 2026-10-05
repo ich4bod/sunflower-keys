@@ -32,3 +32,5 @@
 #phrase-guide .arrange-falls-helper{display:block;color:#f7efcf;font-size:14px;line-height:1.4;margin:8px 0}
 #seed-arrangement #arrange-changes{height:44px;min-height:44px;padding:0 16px;background:transparent;border:1px solid #ffd166;border-radius:999px;color:#f7efcf;font:13px system-ui,sans-serif}#seed-arrangement #arrange-changes:disabled{opacity:.35;cursor:default}#seed-arrangement #arrange-changes:focus-visible{outline:2px solid #ffd166;outline-offset:3px}
 #phrase-guide .arrange-changes-helper{display:block;color:#f7efcf;font-size:14px;line-height:1.4;margin:8px 0}
+#seed-arrangement #arrange-peaks{height:44px;min-height:44px;padding:0 16px;background:transparent;border:1px solid #ffd166;border-radius:999px;color:#f7efcf;font:13px system-ui,sans-serif}#seed-arrangement #arrange-peaks:disabled{opacity:.35;cursor:default}#seed-arrangement #arrange-peaks:focus-visible{outline:2px solid #ffd166;outline-offset:3px}
+#phrase-guide .arrange-peaks-helper{display:block;color:#f7efcf;font-size:14px;line-height:1.4;margin:8px 0}
