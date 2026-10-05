@@ -1,0 +1,50 @@
+[
+  {
+    "id": "first-half",
+    "label": "Keep the opening half",
+    "message": "Kept the opening half of the drawn phrase.",
+    "helper": "Keep the opening half keeps the first half of the drawn notes. An odd phrase gives the opening half the extra note. Undo brings every removed seed back.",
+    "formula": "a.slice(0,Math.ceil(a.length/2))",
+    "output": "first-half cuts the whole drawn phrase reversibly"
+  },
+  {
+    "id": "last-half",
+    "label": "Keep the closing half",
+    "message": "Kept the closing half of the drawn phrase.",
+    "helper": "Keep the closing half keeps the last half of the drawn notes. An odd phrase gives the closing half the extra note. Undo brings every removed seed back.",
+    "formula": "a.slice(Math.floor(a.length/2))",
+    "output": "last-half cuts the whole drawn phrase reversibly"
+  },
+  {
+    "id": "trim-ends",
+    "label": "Trim both ends",
+    "message": "Removed both ends of the drawn phrase.",
+    "helper": "Trim both ends removes the first and last drawn notes when there are at least three. The middle keeps its order. Undo restores the ends.",
+    "formula": "a.length<3?null:a.slice(1,-1)",
+    "output": "trim-ends cuts the whole drawn phrase reversibly"
+  },
+  {
+    "id": "ends-only",
+    "label": "Keep just the ends",
+    "message": "Kept just the two ends of the drawn phrase.",
+    "helper": "Keep just the ends keeps the first and last drawn notes when there are more than two. It is a two-note outline of the phrase; Undo restores the middle.",
+    "formula": "a.length<3?null:[a[0],a.at(-1)]",
+    "output": "ends-only cuts the whole drawn phrase reversibly"
+  },
+  {
+    "id": "every-third",
+    "label": "Keep every third note",
+    "message": "Kept every third drawn note, starting with the first.",
+    "helper": "Keep every third note keeps the first, fourth, seventh and later drawn notes at that spacing. This changes the held seeds, not the timing between notes. Undo restores the full phrase.",
+    "formula": "a.filter((_,i)=>i%3===0)",
+    "output": "every-third cuts the whole drawn phrase reversibly"
+  },
+  {
+    "id": "omit-thirds",
+    "label": "Leave out every third",
+    "message": "Removed the third note of each drawn group of three.",
+    "helper": "Leave out every third removes the third, sixth, ninth and later drawn notes. The remaining notes keep their order. Undo restores the omitted notes.",
+    "formula": "a.filter((_,i)=>i%3!==2)",
+    "output": "omit-thirds cuts the whole drawn phrase reversibly"
+  }
+]
