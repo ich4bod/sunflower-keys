@@ -28,3 +28,5 @@
 #phrase-guide .arrange-omit-thirds-helper{display:block;color:#f7efcf;font-size:14px;line-height:1.4;margin:8px 0}
 #seed-arrangement #arrange-rises{height:44px;min-height:44px;padding:0 16px;background:transparent;border:1px solid #ffd166;border-radius:999px;color:#f7efcf;font:13px system-ui,sans-serif}#seed-arrangement #arrange-rises:disabled{opacity:.35;cursor:default}#seed-arrangement #arrange-rises:focus-visible{outline:2px solid #ffd166;outline-offset:3px}
 #phrase-guide .arrange-rises-helper{display:block;color:#f7efcf;font-size:14px;line-height:1.4;margin:8px 0}
+#seed-arrangement #arrange-falls{height:44px;min-height:44px;padding:0 16px;background:transparent;border:1px solid #ffd166;border-radius:999px;color:#f7efcf;font:13px system-ui,sans-serif}#seed-arrangement #arrange-falls:disabled{opacity:.35;cursor:default}#seed-arrangement #arrange-falls:focus-visible{outline:2px solid #ffd166;outline-offset:3px}
+#phrase-guide .arrange-falls-helper{display:block;color:#f7efcf;font-size:14px;line-height:1.4;margin:8px 0}
