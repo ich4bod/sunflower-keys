@@ -22,3 +22,5 @@
 #phrase-guide .arrange-trim-ends-helper{display:block;color:#f7efcf;font-size:14px;line-height:1.4;margin:8px 0}
 #arrange-ends-only{min-height:44px;padding:0 16px;background:transparent;border:1px solid #ffd166;border-radius:999px;color:#f7efcf;font:13px system-ui,sans-serif}#arrange-ends-only:disabled{opacity:.45;cursor:default}#arrange-ends-only:focus-visible{outline:3px solid #ffd166;outline-offset:3px}
 #phrase-guide .arrange-ends-only-helper{display:block;color:#f7efcf;font-size:14px;line-height:1.4;margin:8px 0}
+#arrange-every-third{min-height:44px;padding:0 16px;background:transparent;border:1px solid #ffd166;border-radius:999px;color:#f7efcf;font:13px system-ui,sans-serif}#arrange-every-third:disabled{opacity:.45;cursor:default}#arrange-every-third:focus-visible{outline:3px solid #ffd166;outline-offset:3px}
+#phrase-guide .arrange-every-third-helper{display:block;color:#f7efcf;font-size:14px;line-height:1.4;margin:8px 0}
