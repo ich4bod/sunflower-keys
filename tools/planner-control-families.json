@@ -1,0 +1,166 @@
+[
+  {
+    "id": "path-order",
+    "legend": "Change the path",
+    "controls": [
+      {
+        "id": "arrange-outward",
+        "label": "Arrange outward"
+      },
+      {
+        "id": "arrange-inward",
+        "label": "Arrange inward"
+      },
+      {
+        "id": "arrange-colors",
+        "label": "Group note colors"
+      },
+      {
+        "id": "arrange-interleave",
+        "label": "Interleave note colors"
+      },
+      {
+        "id": "arrange-offbeats-first",
+        "label": "Lead with offbeats"
+      },
+      {
+        "id": "arrange-swap-pairs",
+        "label": "Swap drawn pairs"
+      },
+      {
+        "id": "arrange-reverse-triples",
+        "label": "Reverse drawn threes"
+      },
+      {
+        "id": "arrange-exchange-halves",
+        "label": "Exchange phrase halves"
+      },
+      {
+        "id": "arrange-ends-in",
+        "label": "Weave ends inward"
+      },
+      {
+        "id": "arrange-middle-out",
+        "label": "Weave middle outward"
+      }
+    ]
+  },
+  {
+    "id": "seed-spacing",
+    "legend": "Move seeds and colors",
+    "controls": [
+      {
+        "id": "arrange-pack",
+        "label": "Pack note colors"
+      },
+      {
+        "id": "arrange-edge",
+        "label": "Pack colors to edge"
+      },
+      {
+        "id": "arrange-space",
+        "label": "Space note colors"
+      },
+      {
+        "id": "arrange-next",
+        "label": "Cycle colors forward"
+      },
+      {
+        "id": "arrange-previous",
+        "label": "Cycle colors back"
+      },
+      {
+        "id": "arrange-invert",
+        "label": "Invert note colors"
+      }
+    ]
+  },
+  {
+    "id": "phrase-length",
+    "legend": "Shorten the phrase",
+    "controls": [
+      {
+        "id": "arrange-first-half",
+        "label": "Keep the opening half"
+      },
+      {
+        "id": "arrange-last-half",
+        "label": "Keep the closing half"
+      },
+      {
+        "id": "arrange-trim-ends",
+        "label": "Trim both ends"
+      },
+      {
+        "id": "arrange-ends-only",
+        "label": "Keep just the ends"
+      },
+      {
+        "id": "arrange-every-third",
+        "label": "Keep every third note"
+      },
+      {
+        "id": "arrange-omit-thirds",
+        "label": "Leave out every third"
+      }
+    ]
+  },
+  {
+    "id": "color-outline",
+    "legend": "Choose a color outline",
+    "controls": [
+      {
+        "id": "arrange-rises",
+        "label": "Keep the rising notes"
+      },
+      {
+        "id": "arrange-falls",
+        "label": "Keep the falling notes"
+      },
+      {
+        "id": "arrange-changes",
+        "label": "Keep color changes"
+      },
+      {
+        "id": "arrange-peaks",
+        "label": "Keep the high points"
+      },
+      {
+        "id": "arrange-valleys",
+        "label": "Keep the low points"
+      },
+      {
+        "id": "arrange-first-colors",
+        "label": "Keep each color’s entrance"
+      },
+      {
+        "id": "arrange-repeat-colors",
+        "label": "Keep returning colors"
+      },
+      {
+        "id": "arrange-solo-colors",
+        "label": "Keep one-time colors"
+      },
+      {
+        "id": "arrange-last-colors",
+        "label": "Keep each color’s last note"
+      },
+      {
+        "id": "arrange-repeat-after-first",
+        "label": "Remove each color’s first note"
+      },
+      {
+        "id": "arrange-small-steps",
+        "label": "Keep one-color steps"
+      },
+      {
+        "id": "arrange-wide-steps",
+        "label": "Keep wide color steps"
+      },
+      {
+        "id": "arrange-level-steps",
+        "label": "Keep repeated-color steps"
+      }
+    ]
+  }
+]
