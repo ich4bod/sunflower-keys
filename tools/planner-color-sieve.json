@@ -1,0 +1,58 @@
+[
+  {
+    "id": "repeat-colors",
+    "label": "Keep returning colors",
+    "helper": "Keep every note whose color occurs more than once in the original phrase.",
+    "formula": "a.filter(v=>a.filter(w=>w%5===v%5).length>1)",
+    "message": "Keep every note whose color occurs more than once in the original phrase.",
+    "output": "repeat-colors preserves an exact reversible phrase subset"
+  },
+  {
+    "id": "solo-colors",
+    "label": "Keep one-time colors",
+    "helper": "Keep every note whose color occurs exactly once in the original phrase.",
+    "formula": "a.filter(v=>a.filter(w=>w%5===v%5).length===1)",
+    "message": "Keep every note whose color occurs exactly once in the original phrase.",
+    "output": "solo-colors preserves an exact reversible phrase subset"
+  },
+  {
+    "id": "last-colors",
+    "label": "Keep each color’s last note",
+    "helper": "Keep only the last drawn note of each color, in the original drawn order.",
+    "formula": "a.filter((v,i)=>a.findLastIndex(w=>w%5===v%5)===i)",
+    "message": "Keep only the last drawn note of each color, in the original drawn order.",
+    "output": "last-colors preserves an exact reversible phrase subset"
+  },
+  {
+    "id": "repeat-after-first",
+    "label": "Remove each color’s first note",
+    "helper": "Remove the first drawn note of each color; keep its later appearances in order.",
+    "formula": "a.filter((v,i)=>a.findIndex(w=>w%5===v%5)!==i)",
+    "message": "Remove the first drawn note of each color; keep its later appearances in order.",
+    "output": "repeat-after-first preserves an exact reversible phrase subset"
+  },
+  {
+    "id": "small-steps",
+    "label": "Keep one-color steps",
+    "helper": "Keep the first note, then notes one color above or below their original predecessor. The color scale does not wrap.",
+    "formula": "a.filter((v,i)=>i===0||Math.abs(v%5-a[i-1]%5)===1)",
+    "message": "Keep the first note, then notes one color above or below their original predecessor. The color scale does not wrap.",
+    "output": "small-steps preserves an exact reversible phrase subset"
+  },
+  {
+    "id": "wide-steps",
+    "label": "Keep wide color steps",
+    "helper": "Keep the first note, then notes at least two colors above or below their original predecessor. The color scale does not wrap.",
+    "formula": "a.filter((v,i)=>i===0||Math.abs(v%5-a[i-1]%5)>=2)",
+    "message": "Keep the first note, then notes at least two colors above or below their original predecessor. The color scale does not wrap.",
+    "output": "wide-steps preserves an exact reversible phrase subset"
+  },
+  {
+    "id": "level-steps",
+    "label": "Keep repeated-color steps",
+    "helper": "Keep the first note, then notes with the same color as their original predecessor.",
+    "formula": "a.filter((v,i)=>i===0||v%5===a[i-1]%5)",
+    "message": "Keep the first note, then notes with the same color as their original predecessor.",
+    "output": "level-steps preserves an exact reversible phrase subset"
+  }
+]
