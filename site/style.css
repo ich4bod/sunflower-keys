@@ -53,3 +53,6 @@
 #seed-arrangement #family-color-outline{width:100%;flex-basis:100%;min-width:0;margin:4px 0;padding:8px;border:1px solid #468a69;border-radius:8px;background:#12392d;color:#f7efcf}
 #seed-arrangement #family-color-outline>legend{padding:0 6px;color:#a7d46f;text-align:left;font:14px/1.4 system-ui,sans-serif}
 #seed-arrangement #family-color-outline>.family-buttons{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px}
+#phrase-guide section{margin:16px 0}
+#phrase-guide section h3{color:#a7d46f;font:normal 14px/1.4 system-ui,sans-serif;margin:0 0 8px;text-align:left;text-transform:none}
+#phrase-guide section small,#phrase-guide section p{display:block;color:#f7efcf;font:14px/1.4 system-ui,sans-serif;margin:8px 0}
