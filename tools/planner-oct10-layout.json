@@ -1,0 +1,1150 @@
+{
+  "slug": "sunflower-keys",
+  "controls": [
+    [
+      "sound-toggle",
+      "button"
+    ],
+    [
+      "echo",
+      "button"
+    ],
+    [
+      "ripple",
+      "button"
+    ],
+    [
+      "note-colors",
+      "button"
+    ],
+    [
+      "preset-spiral-34",
+      "button"
+    ],
+    [
+      "preset-spiral-55",
+      "button"
+    ],
+    [
+      "preset-five-note-fan",
+      "button"
+    ],
+    [
+      "preset-crossing-spirals",
+      "button"
+    ],
+    [
+      "preset-wide-fan",
+      "button"
+    ],
+    [
+      "preset-two-note-braid",
+      "button"
+    ],
+    [
+      "preset-rising-steps",
+      "button"
+    ],
+    [
+      "preset-five-color-star",
+      "button"
+    ],
+    [
+      "order-radial",
+      "button"
+    ],
+    [
+      "order-drawn",
+      "button"
+    ],
+    [
+      "reverse-order",
+      "button"
+    ],
+    [
+      "bounce-blooms",
+      "button"
+    ],
+    [
+      "hold-blooms",
+      "button"
+    ],
+    [
+      "erase-blooms",
+      "button"
+    ],
+    [
+      "clear-blooms",
+      "button"
+    ],
+    [
+      "remove-last",
+      "button"
+    ],
+    [
+      "play-blooms",
+      "button"
+    ],
+    [
+      "next-held",
+      "button"
+    ],
+    [
+      "loop-blooms",
+      "button"
+    ],
+    [
+      "play-twice",
+      "button"
+    ],
+    [
+      "play-together",
+      "button"
+    ],
+    [
+      "edit-note",
+      "select"
+    ],
+    [
+      "edit-note-previous-choice",
+      "button"
+    ],
+    [
+      "edit-note-next-choice",
+      "button"
+    ],
+    [
+      "edit-note-pitch-previous",
+      "button"
+    ],
+    [
+      "edit-note-pitch-next",
+      "button"
+    ],
+    [
+      "edit-note-hear",
+      "button"
+    ],
+    [
+      "edit-note-partner",
+      "select"
+    ],
+    [
+      "edit-note-earlier",
+      "button"
+    ],
+    [
+      "edit-note-later",
+      "button"
+    ],
+    [
+      "edit-note-start",
+      "button"
+    ],
+    [
+      "edit-note-from",
+      "button"
+    ],
+    [
+      "edit-note-through",
+      "button"
+    ],
+    [
+      "edit-note-reverse-head",
+      "button"
+    ],
+    [
+      "edit-note-reverse-tail",
+      "button"
+    ],
+    [
+      "edit-note-remove",
+      "button"
+    ],
+    [
+      "edit-note-keep-color",
+      "button"
+    ],
+    [
+      "edit-note-remove-color",
+      "button"
+    ],
+    [
+      "edit-note-band-in",
+      "button"
+    ],
+    [
+      "edit-note-band-out",
+      "button"
+    ],
+    [
+      "edit-note-copy-band",
+      "button"
+    ],
+    [
+      "edit-note-color-previous",
+      "button"
+    ],
+    [
+      "edit-note-color-next",
+      "button"
+    ],
+    [
+      "edit-note-swap",
+      "button"
+    ],
+    [
+      "edit-note-reverse-range",
+      "button"
+    ],
+    [
+      "edit-note-range-roll-left",
+      "button"
+    ],
+    [
+      "edit-note-range-roll-right",
+      "button"
+    ],
+    [
+      "edit-note-range-sort-color",
+      "button"
+    ],
+    [
+      "edit-note-range-pairs",
+      "button"
+    ],
+    [
+      "edit-note-range-ends-in",
+      "button"
+    ],
+    [
+      "edit-note-range-keep-alternate",
+      "button"
+    ],
+    [
+      "edit-note-range-drop-alternate",
+      "button"
+    ],
+    [
+      "edit-note-keep-range",
+      "button"
+    ],
+    [
+      "edit-note-remove-range",
+      "button"
+    ],
+    [
+      "edit-note-range-first",
+      "button"
+    ],
+    [
+      "edit-note-range-last",
+      "button"
+    ],
+    [
+      "edit-note-position",
+      "select"
+    ],
+    [
+      "edit-note-move-position",
+      "button"
+    ],
+    [
+      "edit-note-play-range",
+      "button"
+    ],
+    [
+      "undo-drawing",
+      "button"
+    ],
+    [
+      "redo-drawing",
+      "button"
+    ],
+    [
+      "remember-drawing",
+      "button"
+    ],
+    [
+      "recall-drawing",
+      "button"
+    ],
+    [
+      "swap-remembered",
+      "button"
+    ],
+    [
+      "append-remembered",
+      "button"
+    ],
+    [
+      "weave-remembered",
+      "button"
+    ],
+    [
+      "subtract-remembered",
+      "button"
+    ],
+    [
+      "shared-remembered",
+      "button"
+    ],
+    [
+      "exclusive-remembered",
+      "button"
+    ],
+    [
+      "reorder-remembered",
+      "button"
+    ],
+    [
+      "register-low",
+      "button"
+    ],
+    [
+      "register-middle",
+      "button"
+    ],
+    [
+      "register-high",
+      "button"
+    ],
+    [
+      "root-c",
+      "button"
+    ],
+    [
+      "root-d",
+      "button"
+    ],
+    [
+      "root-f",
+      "button"
+    ],
+    [
+      "voice-soft",
+      "button"
+    ],
+    [
+      "voice-usual",
+      "button"
+    ],
+    [
+      "voice-strong",
+      "button"
+    ],
+    [
+      "tempo-slow",
+      "button"
+    ],
+    [
+      "tempo-flow",
+      "button"
+    ],
+    [
+      "tempo-quick",
+      "button"
+    ],
+    [
+      "breath-short",
+      "button"
+    ],
+    [
+      "breath-usual",
+      "button"
+    ],
+    [
+      "breath-long",
+      "button"
+    ],
+    [
+      "thin-blooms",
+      "button"
+    ],
+    [
+      "keep-offbeats",
+      "button"
+    ],
+    [
+      "turn-phrase",
+      "button"
+    ],
+    [
+      "turn-back",
+      "button"
+    ],
+    [
+      "reverse-drawing",
+      "button"
+    ],
+    [
+      "mirror-drawing",
+      "button"
+    ],
+    [
+      "keep-color",
+      "button"
+    ],
+    [
+      "drop-color",
+      "button"
+    ],
+    [
+      "arrange-outward",
+      "button"
+    ],
+    [
+      "arrange-inward",
+      "button"
+    ],
+    [
+      "arrange-colors",
+      "button"
+    ],
+    [
+      "arrange-interleave",
+      "button"
+    ],
+    [
+      "arrange-offbeats-first",
+      "button"
+    ],
+    [
+      "arrange-swap-pairs",
+      "button"
+    ],
+    [
+      "arrange-reverse-triples",
+      "button"
+    ],
+    [
+      "arrange-exchange-halves",
+      "button"
+    ],
+    [
+      "arrange-ends-in",
+      "button"
+    ],
+    [
+      "arrange-middle-out",
+      "button"
+    ],
+    [
+      "arrange-pack",
+      "button"
+    ],
+    [
+      "arrange-edge",
+      "button"
+    ],
+    [
+      "arrange-space",
+      "button"
+    ],
+    [
+      "arrange-next",
+      "button"
+    ],
+    [
+      "arrange-previous",
+      "button"
+    ],
+    [
+      "arrange-invert",
+      "button"
+    ],
+    [
+      "arrange-first-half",
+      "button"
+    ],
+    [
+      "arrange-last-half",
+      "button"
+    ],
+    [
+      "arrange-trim-ends",
+      "button"
+    ],
+    [
+      "arrange-ends-only",
+      "button"
+    ],
+    [
+      "arrange-every-third",
+      "button"
+    ],
+    [
+      "arrange-omit-thirds",
+      "button"
+    ],
+    [
+      "arrange-rises",
+      "button"
+    ],
+    [
+      "arrange-falls",
+      "button"
+    ],
+    [
+      "arrange-changes",
+      "button"
+    ],
+    [
+      "arrange-peaks",
+      "button"
+    ],
+    [
+      "arrange-valleys",
+      "button"
+    ],
+    [
+      "arrange-first-colors",
+      "button"
+    ],
+    [
+      "arrange-repeat-colors",
+      "button"
+    ],
+    [
+      "arrange-solo-colors",
+      "button"
+    ],
+    [
+      "arrange-last-colors",
+      "button"
+    ],
+    [
+      "arrange-repeat-after-first",
+      "button"
+    ],
+    [
+      "arrange-small-steps",
+      "button"
+    ],
+    [
+      "arrange-wide-steps",
+      "button"
+    ],
+    [
+      "arrange-level-steps",
+      "button"
+    ],
+    [
+      "center-drawing",
+      "button"
+    ],
+    [
+      "shift-in",
+      "button"
+    ],
+    [
+      "shift-out",
+      "button"
+    ],
+    [
+      "stretch-drawing",
+      "button"
+    ],
+    [
+      "compress-drawing",
+      "button"
+    ],
+    [
+      "copy-outward",
+      "button"
+    ],
+    [
+      "weave-outward",
+      "button"
+    ],
+    [
+      "note-in",
+      "button"
+    ],
+    [
+      "note-out",
+      "button"
+    ],
+    [
+      "reset-golden",
+      "button"
+    ],
+    [
+      "angle",
+      "input"
+    ],
+    [
+      "trace-34",
+      "button"
+    ],
+    [
+      "trace-55",
+      "button"
+    ],
+    [
+      "trace-direction",
+      "button"
+    ]
+  ],
+  "copy": [
+    {
+      "selector": "#keyboard-help",
+      "text": "Keyboard: focus the garden, then press 1–5 for five notes. Hold and Erase work here too."
+    },
+    {
+      "selector": ".note-color-helper",
+      "text": "Five colors, five notes. The pattern repeats through the garden."
+    },
+    {
+      "selector": "#drawn-notes-help",
+      "text": "Your drawn order. Choose Drawn to hear this path; playback uses up to 24 held seeds."
+    },
+    {
+      "selector": "#edit-note-browse-help",
+      "text": "Walk the drawn order silently. These buttons choose; they do not move a note."
+    },
+    {
+      "selector": "#edit-note-pitch-help",
+      "text": "Find the same pitch earlier or later in drawn order. This only changes the silent choice; the phrase does not wrap."
+    },
+    {
+      "selector": "#one-note-help",
+      "text": "Choose by drawn position. Choosing is silent and does not change the phrase."
+    },
+    {
+      "selector": "#edit-note-reverse-help",
+      "text": "Reverse the chosen note and everything after it. Earlier drawn notes stay put."
+    },
+    {
+      "selector": "#edit-note-reverse-head-help",
+      "text": "Reverse the beginning through the chosen note. Later drawn notes stay put."
+    },
+    {
+      "selector": "#edit-note-filter-help",
+      "text": "This color means one pitch in the current five-note scale. Keep or remove every drawn seed of that color; their order stays the same."
+    },
+    {
+      "selector": "#edit-note-band-help",
+      "text": "Move just this seed by five places; its note stays the same. Held destinations and garden edges stay unavailable."
+    },
+    {
+      "selector": "#edit-note-copy-help",
+      "text": "Insert one same-color seed after the chosen note. A held destination or the garden edge makes the copy unavailable."
+    },
+    {
+      "selector": "#edit-note-color-help",
+      "text": "Next color wraps from the highest note to the lowest. This is not a semitone step. A held destination stays unavailable."
+    },
+    {
+      "selector": "#edit-note-interval-help",
+      "text": "These are pitch steps in the five-note scale, not seed-number gaps. Drawn order only; the two ends do not join."
+    },
+    {
+      "selector": "#edit-note-range-place-help",
+      "text": "Move the inclusive section intact. Notes outside it keep their order; nothing is copied or played."
+    },
+    {
+      "selector": "#edit-note-reverse-range-help",
+      "text": "Reverse the inclusive section between the two choices. Notes outside it stay put."
+    },
+    {
+      "selector": "#edit-section-roll-help",
+      "text": "Only the inclusive drawn section between the two choices turns. The notes before and after it stay put."
+    },
+    {
+      "selector": "#edit-note-range-sort-color-help",
+      "text": "Only the chosen section changes. Equal colors keep their order; notes before and after it stay put."
+    },
+    {
+      "selector": "#edit-note-range-pairs-help",
+      "text": "Trade neighboring pairs from the beginning of this chosen section. An unpaired end stays put; notes outside the section do not move."
+    },
+    {
+      "selector": "#edit-note-range-ends-in-help",
+      "text": "Take the first and last notes, then work inward. Only this section changes; its middle note is used once."
+    },
+    {
+      "selector": "#edit-note-range-alternate-help",
+      "text": "Count from the first note of the chosen section. Keep takes its first, third and fifth notes; Drop removes those notes. The rest of the drawing stays put."
+    },
+    {
+      "selector": "#edit-note-position-help",
+      "text": "Move this note directly. The notes it passes keep their order."
+    },
+    {
+      "selector": "#edit-note-swap-help",
+      "text": "Exchange two positions. Every note between them stays where it was."
+    },
+    {
+      "selector": "#edit-note-range-help",
+      "text": "Both chosen ends are included. The range follows drawn positions, not distance across the garden."
+    },
+    {
+      "selector": "#edit-note-play-range-help",
+      "text": "Play the inclusive drawn section once, up to 24 notes. This does not cut the drawing or turn sound on."
+    },
+    {
+      "selector": "#remembered-notes-help",
+      "text": "The drawing you kept, in its original order. Live edits do not change it."
+    },
+    {
+      "selector": ".swap-remembered-helper",
+      "text": "Swap trades the live and remembered drawings. Undo changes only the live drawing; the remembered drawing stays put."
+    },
+    {
+      "selector": ".append-remembered-helper",
+      "text": "Add remembered seeds keeps the live drawn order, then adds remembered seeds that are not already held."
+    },
+    {
+      "selector": ".weave-remembered-helper",
+      "text": "Weave drawings alternates live and remembered seeds in drawn order. Shared seeds appear only once; the longer drawing keeps its tail."
+    },
+    {
+      "selector": ".subtract-remembered-helper",
+      "text": "Remove remembered seeds cuts shared seeds out of the live drawing. The remembered drawing stays available, and Undo brings the cut seeds back."
+    },
+    {
+      "selector": ".shared-remembered-helper",
+      "text": "Keep shared seeds keeps only seeds found in both drawings, in live drawn order. Undo brings the removed seeds back."
+    },
+    {
+      "selector": ".exclusive-remembered-helper",
+      "text": "Combine unshared seeds removes overlaps, then puts live-only seeds before remembered-only seeds. Undo restores the previous drawing."
+    },
+    {
+      "selector": ".reorder-remembered-helper",
+      "text": "Use remembered order moves shared seeds to the front in remembered order. It keeps exactly the same held seeds. Choose Drawn to hear the new path."
+    },
+    {
+      "selector": ".undo-helper",
+      "text": "Undo drawing restores the last changed drawing, including its drawn order. Sound settings stay as they are. Up to 24 changes are kept."
+    },
+    {
+      "selector": ".redo-helper",
+      "text": "Redo drawing brings back an undone edit. Changing the drawing starts a new path; changing the sound does not."
+    },
+    {
+      "selector": ".thin-helper",
+      "text": "Keep every other note in the order you drew it."
+    },
+    {
+      "selector": ".offbeats-helper",
+      "text": "Keep offbeats keeps the second, fourth and later alternating notes in drawn order. It changes the drawing, not the timing."
+    },
+    {
+      "selector": ".turn-helper",
+      "text": "Move the first drawn note to the end. Choose Drawn to hear the new start."
+    },
+    {
+      "selector": ".turn-back-helper",
+      "text": "Move the last drawn note to the beginning. Choose Drawn to hear the new start."
+    },
+    {
+      "selector": ".reverse-drawing-helper",
+      "text": "Reverse drawing rewrites the drawn order. Reverse only flips the playback path."
+    },
+    {
+      "selector": ".mirror-helper",
+      "text": "Mirror drawing reflects the seed numbers between your innermost and outermost held blooms. Drawn order stays in place."
+    },
+    {
+      "selector": ".repeat-helper",
+      "text": "Let the held phrase breathe before it begins again."
+    },
+    {
+      "selector": ".next-held-helper",
+      "text": "Walk the held phrase one note at a time. Radial, Drawn and Reverse choose the path."
+    },
+    {
+      "selector": ".shift-helper",
+      "text": "Five seeds at a time: the shape moves, the notes stay."
+    },
+    {
+      "selector": ".center-helper",
+      "text": "Bring to center moves the whole drawing until its innermost seed reaches zero. Note colors can change."
+    },
+    {
+      "selector": ".stretch-helper",
+      "text": "Stretch drawing doubles the seed-number gaps from the innermost held bloom. If it would leave the garden, the button stays off."
+    },
+    {
+      "selector": ".compress-helper",
+      "text": "Compress drawing halves the seed-number gaps from the innermost bloom. It works only when every gap is even."
+    },
+    {
+      "selector": ".note-step-helper",
+      "text": "One seed changes the note color. Five seeds preserve it."
+    },
+    {
+      "selector": ".keep-color-helper",
+      "text": "Strike or audition a note, then keep only its color in the held drawing. Turn on Note colors to see the result."
+    },
+    {
+      "selector": ".drop-color-helper",
+      "text": "Strike a note, then Drop this color removes that color from the held drawing. It can empty the phrase."
+    },
+    {
+      "selector": ".copy-helper",
+      "text": "Keep this drawing and add a copy 25 seeds farther out. The note colors stay the same."
+    },
+    {
+      "selector": ".weave-helper",
+      "text": "Weave outward places a copy five seeds farther out after each drawn note. Overlapping seeds appear only once."
+    },
+    {
+      "selector": ".remember-helper",
+      "text": "Remember one drawing while you try another. Recall changes only the held seeds, not the sound. The remembered drawing disappears when this page closes."
+    },
+    {
+      "selector": ".bounce-helper",
+      "text": "Visit the phrase, then retrace it without repeating the turning note."
+    },
+    {
+      "selector": ".braid-preset-helper",
+      "text": "Two-note braid alternates two colors as it moves outward."
+    },
+    {
+      "selector": ".steps-preset-helper",
+      "text": "Rising steps walks through all five note colors, one outward step at a time."
+    },
+    {
+      "selector": ".star-preset-helper",
+      "text": "Five-color star spreads one note of each color across the garden."
+    },
+    {
+      "selector": ".arrange-outward-helper",
+      "text": "Arrange outward rewrites the drawn order from the center toward the edge. It keeps every held seed; choose Drawn to hear the path."
+    },
+    {
+      "selector": ".arrange-inward-helper",
+      "text": "Arrange inward rewrites the drawn order from the edge toward the center. It keeps every held seed; choose Drawn to hear the path."
+    },
+    {
+      "selector": ".arrange-colors-helper",
+      "text": "Group note colors puts color zero first, then colors one through four. Notes within each color keep their drawn order. Root changes the note names, not these groups."
+    },
+    {
+      "selector": ".arrange-interleave-helper",
+      "text": "Interleave note colors takes one seed from each color in turn, from zero to four, then repeats. Each color keeps its original drawn order; missing colors are skipped. The held seeds stay put."
+    },
+    {
+      "selector": ".arrange-offbeats-first-helper",
+      "text": "Lead with offbeats puts the second, fourth and later alternating drawn notes first, then the first, third and remaining notes. It keeps every held seed; choose Drawn to hear the change."
+    },
+    {
+      "selector": ".arrange-swap-pairs-helper",
+      "text": "Swap drawn pairs trades the first two drawn notes, then the next two, and so on. An unpaired last note stays last. The held seeds do not move."
+    },
+    {
+      "selector": ".arrange-reverse-triples-helper",
+      "text": "Reverse drawn threes reverses each group of three notes in drawn order. A final group of one or two reverses too. Apply it twice to restore the path."
+    },
+    {
+      "selector": ".arrange-exchange-halves-helper",
+      "text": "Exchange phrase halves cuts the drawn phrase after its middle note, then puts the second half first. With an odd number of notes, the first half gets the extra note. Undo restores the original cut."
+    },
+    {
+      "selector": ".arrange-ends-in-helper",
+      "text": "Weave ends inward takes the first drawn note, then the last, then the second and next-to-last, until the two ends meet. It keeps every seed exactly once."
+    },
+    {
+      "selector": ".arrange-middle-out-helper",
+      "text": "Weave middle outward starts at the earlier middle note, then takes one to its right, one to its left, and continues outward. This follows drawn positions, not distance from the garden center."
+    },
+    {
+      "selector": ".arrange-pack-helper",
+      "text": "Pack note colors moves the first drawn note of each color to its innermost seed, then packs later notes of that color five seeds apart. The drawn color sequence stays the same."
+    },
+    {
+      "selector": ".arrange-edge-helper",
+      "text": "Pack colors to edge places the first drawn note of each color on its outermost seed, then packs later notes five seeds inward. The drawn color sequence stays the same."
+    },
+    {
+      "selector": ".arrange-space-helper",
+      "text": "Space note colors starts each color at its innermost seed and leaves a five-seed gap between later notes of that color. If the whole phrase will not fit, nothing moves."
+    },
+    {
+      "selector": ".arrange-next-helper",
+      "text": "Cycle colors forward moves each seed to the next color in its five-seed band, wrapping color four to zero. If a destination is outside the garden, nothing moves. The root stays put."
+    },
+    {
+      "selector": ".arrange-previous-helper",
+      "text": "Cycle colors back moves each seed to the previous color in its five-seed band, wrapping color zero to four. If a destination is outside the garden, nothing moves. The root stays put."
+    },
+    {
+      "selector": ".arrange-invert-helper",
+      "text": "Invert note colors reflects colors zero through four inside each five-seed band. The middle color stays put. This is a color reversal, not equal musical intervals. If the whole phrase will not fit, nothing moves."
+    },
+    {
+      "selector": ".arrange-first-half-helper",
+      "text": "Keep the opening half keeps the first half of the drawn notes. An odd phrase gives the opening half the extra note. Undo brings every removed seed back."
+    },
+    {
+      "selector": ".arrange-last-half-helper",
+      "text": "Keep the closing half keeps the last half of the drawn notes. An odd phrase gives the closing half the extra note. Undo brings every removed seed back."
+    },
+    {
+      "selector": ".arrange-trim-ends-helper",
+      "text": "Trim both ends removes the first and last drawn notes when there are at least three. The middle keeps its order. Undo restores the ends."
+    },
+    {
+      "selector": ".arrange-ends-only-helper",
+      "text": "Keep just the ends keeps the first and last drawn notes when there are more than two. It is a two-note outline of the phrase; Undo restores the middle."
+    },
+    {
+      "selector": ".arrange-every-third-helper",
+      "text": "Keep every third note keeps the first, fourth, seventh and later drawn notes at that spacing. This changes the held seeds, not the timing between notes. Undo restores the full phrase."
+    },
+    {
+      "selector": ".arrange-omit-thirds-helper",
+      "text": "Leave out every third removes the third, sixth, ninth and later drawn notes. The remaining notes keep their order. Undo restores the omitted notes."
+    },
+    {
+      "selector": ".arrange-rises-helper",
+      "text": "Keep the rising notes keeps the first drawn note, then only notes whose color is higher than the preceding drawn note. The comparison uses the original phrase, not the cut result. Undo restores the phrase."
+    },
+    {
+      "selector": ".arrange-falls-helper",
+      "text": "Keep the falling notes keeps the first drawn note, then only notes whose color is lower than the preceding drawn note. The comparison uses the original phrase. Undo restores the phrase."
+    },
+    {
+      "selector": ".arrange-changes-helper",
+      "text": "Keep color changes keeps the first drawn note and each note that differs in color from the preceding drawn note. Seeds of the same color sing the same pitch. Undo restores the repeats."
+    },
+    {
+      "selector": ".arrange-peaks-helper",
+      "text": "Keep the high points keeps both phrase ends and any middle note whose color is higher than both its neighbors in the original drawn phrase. Equal colors are not peaks. Undo restores the other notes."
+    },
+    {
+      "selector": ".arrange-valleys-helper",
+      "text": "Keep the low points keeps both phrase ends and any middle note whose color is lower than both its neighbors in the original drawn phrase. Equal colors are not valleys. Undo restores the other notes."
+    },
+    {
+      "selector": ".arrange-first-colors-helper",
+      "text": "Keep each color’s entrance keeps the first drawn seed of each of the five colors, in its original order. It makes a short pitch outline, not a new preset. Undo restores the full phrase."
+    },
+    {
+      "selector": ".arrange-repeat-colors-helper",
+      "text": "Keep every note whose color occurs more than once in the original phrase."
+    },
+    {
+      "selector": ".arrange-solo-colors-helper",
+      "text": "Keep every note whose color occurs exactly once in the original phrase."
+    },
+    {
+      "selector": ".arrange-last-colors-helper",
+      "text": "Keep only the last drawn note of each color, in the original drawn order."
+    },
+    {
+      "selector": ".arrange-repeat-after-first-helper",
+      "text": "Remove the first drawn note of each color; keep its later appearances in order."
+    },
+    {
+      "selector": ".arrange-small-steps-helper",
+      "text": "Keep the first note, then notes one color above or below their original predecessor. The color scale does not wrap."
+    },
+    {
+      "selector": ".arrange-wide-steps-helper",
+      "text": "Keep the first note, then notes at least two colors above or below their original predecessor. The color scale does not wrap."
+    },
+    {
+      "selector": ".arrange-level-steps-helper",
+      "text": "Keep the first note, then notes with the same color as their original predecessor."
+    }
+  ],
+  "cases": [
+    {
+      "slug": "sunflower-keys",
+      "lane": 6,
+      "mode": "whole",
+      "title": "Sunflower Keys — Give whole-drawing edits four doors with their own explanations",
+      "depends": "nothing",
+      "goal": "Choose a kind of whole-phrase edit before meeting its controls. The explanation lives beside the operation instead of at the bottom of a long page.",
+      "steps": "In site/index.html change #seed-arrangement from details to a section with the SAME id; replace its summary with h3 containing the same words Reorder and pack. Make four closed sibling details inside it. Each contains its existing intact fieldset and its matching intact guide section, moved out of #phrase-guide: whole-path-edits contains #family-path-order and #guide-path-order; whole-spacing-edits contains #family-seed-spacing and #guide-seed-spacing; whole-length-edits contains #family-phrase-length and #guide-phrase-length; whole-color-edits contains #family-color-outline and #guide-color-outline. Keep existing legends/headings/help verbatim; no cloned controls or helpers. Keep #phrase-guide and all other content there. Keep the initial simple reshape buttons and whole drawing shift controls outside these four doors. Do not add JavaScript toggle handlers. Adjust only scoped structural CSS if the old details-only selector needs updating.",
+      "groups": [
+        {
+          "id": "whole-path-edits",
+          "summary": "Change the whole path",
+          "members": [
+            "#family-path-order",
+            "#guide-path-order"
+          ]
+        },
+        {
+          "id": "whole-spacing-edits",
+          "summary": "Move whole-drawing seeds and colors",
+          "members": [
+            "#family-seed-spacing",
+            "#guide-seed-spacing"
+          ]
+        },
+        {
+          "id": "whole-length-edits",
+          "summary": "Shorten the whole phrase",
+          "members": [
+            "#family-phrase-length",
+            "#guide-phrase-length"
+          ]
+        },
+        {
+          "id": "whole-color-edits",
+          "summary": "Choose a whole-phrase color outline",
+          "members": [
+            "#family-color-outline",
+            "#guide-color-outline"
+          ]
+        }
+      ],
+      "outside": [
+        "#undo-drawing",
+        "#thin-blooms",
+        "#shift-in"
+      ],
+      "message": "whole-drawing operations keep four independent doors and their original explanations"
+    },
+    {
+      "slug": "sunflower-keys",
+      "lane": 6,
+      "mode": "section",
+      "title": "Sunflower Keys — Separate ordering cutting and placing one passage",
+      "depends": "694, 714, 715",
+      "goal": "Two endpoint choices lead to three clearly different kinds of passage edit. Playing the chosen passage stays available without opening an editing drawer.",
+      "steps": "Inside existing #note-pair-edits add three closed sibling details section-order-tools, section-cut-tools, section-place-tools. Order gets edit-note-swap, edit-note-reverse-range, both range-roll buttons, range-sort-color, range-pairs, range-ends-in, range-outward and range-inward. Cut gets range-keep-alternate, range-drop-alternate, edit-note-keep-range, edit-note-remove-range, range-changes and range-copy. Place gets range-first, range-last, the label/select edit-note-position and edit-note-move-position. Use full id prefix edit-note- for every shorthand range-* above. Move each operation's existing help into its own door. Shared #edit-note-range-help stays directly in #note-pair-edits. Keep #edit-note-play-range and its help directly in #note-pair-edits outside the three doors. Keep #edit-note-partner and primary #edit-note choice where they already precede pair edits. All new helpers from prerequisites go with their own operation; never rewrite any of them. Reparent DOM only, no candidate/handler/history/audio change.",
+      "groups": [
+        {
+          "id": "section-order-tools",
+          "summary": "Order this section",
+          "members": [
+            "#edit-note-swap",
+            "#edit-note-reverse-range",
+            "#edit-note-range-roll-left",
+            "#edit-note-range-sort-color",
+            "#edit-note-range-pairs",
+            "#edit-note-range-ends-in",
+            "#edit-note-range-outward",
+            "#edit-note-range-inward",
+            "#edit-note-swap-help",
+            "#edit-section-roll-help"
+          ]
+        },
+        {
+          "id": "section-cut-tools",
+          "summary": "Cut or copy this section",
+          "members": [
+            "#edit-note-range-keep-alternate",
+            "#edit-note-range-drop-alternate",
+            "#edit-note-keep-range",
+            "#edit-note-remove-range",
+            "#edit-note-range-copy",
+            "#edit-note-range-changes",
+            "#edit-note-range-copy-help",
+            "#edit-note-range-alternate-help"
+          ]
+        },
+        {
+          "id": "section-place-tools",
+          "summary": "Place this section",
+          "members": [
+            "#edit-note-range-first",
+            "#edit-note-range-last",
+            "#edit-note-position",
+            "#edit-note-move-position",
+            "#edit-note-range-place-help",
+            "#edit-note-position-help"
+          ]
+        }
+      ],
+      "outside": [
+        "#edit-note",
+        "#edit-note-partner",
+        "#edit-note-play-range",
+        "#undo-drawing"
+      ],
+      "message": "passage ordering cutting and placing remain separate while endpoint choices and play stay outside"
+    },
+    {
+      "slug": "sunflower-keys",
+      "lane": 6,
+      "mode": "memory",
+      "title": "Sunflower Keys — Put remembered notes and their combinations behind one quiet door",
+      "depends": "nothing",
+      "goal": "The current drawn phrase leads; its remembered comparison is optional. Combination instructions no longer occupy a separate door far from their buttons.",
+      "steps": "Add closed details #drawing-memory after .drawing-history inside #phrase-workbench. Move the contiguous memory block beginning .remember-controls through #remember-mix-guide into it: controls, remembered-count, remembered heading/list/help, remember-mix and its guide. Keep Undo/Redo outside. Move the complete contents of #remember-mix-guide into #remember-mix after its buttons; change the guide wrapper to a div with SAME id, replacing its summary with h3 containing exactly its original words. Remove the now-empty old guide location, not its content. #remember-mix remains its original nested closed details. Do not change remembered drawing storage or live drawing history; disclosure never remembers, recalls or swaps.",
+      "groups": [
+        {
+          "id": "drawing-memory",
+          "summary": "Keep a drawing beside this one",
+          "members": [
+            "#remember-drawing",
+            "#recall-drawing",
+            "#remembered-count",
+            "#remembered-notes",
+            "#remember-mix"
+          ]
+        }
+      ],
+      "outside": [
+        "#undo-drawing",
+        "#redo-drawing",
+        "#drawn-notes",
+        "#play-blooms"
+      ],
+      "parents": [
+        [
+          "#remember-mix-guide",
+          "#remember-mix"
+        ]
+      ],
+      "message": "remembered drawing controls and combination explanations share one optional memory door"
+    },
+    {
+      "slug": "sunflower-keys",
+      "lane": 6,
+      "mode": "start",
+      "title": "Sunflower Keys — Put sound choices before the phrase and fold the preset shelf",
+      "depends": "nothing",
+      "goal": "A new visitor reaches the garden, chooses a sound if wanted, then draws or plays. The shelf of ready-made patterns does not compete with the visitor's own phrase.",
+      "steps": "Wrap intact #sound-workbench in closed details #sound-settings, and move that wrapper immediately before #phrase-workbench. Keep the section id/headings and every root/register/voice/motion/breath choice unchanged. Inside #phrase-workbench wrap intact #bloom-presets in closed details #plant-patterns at its current position; move .braid-preset-helper, .steps-preset-helper and .star-preset-helper from #phrase-guide into that drawer after the buttons. All other phrase-guide help remains. Leave top sound-toggle/Echo/Ripple controls and visible sound-off status untouched. Do not change preset data or sound defaults, and opening either drawer must never plant or play.",
+      "groups": [
+        {
+          "id": "sound-settings",
+          "summary": "Choose the sound",
+          "members": [
+            "#sound-workbench",
+            "#registers",
+            "#roots",
+            "#voice-strength",
+            "#tempos",
+            "#loop-breath"
+          ]
+        },
+        {
+          "id": "plant-patterns",
+          "summary": "Plant a ready-made pattern",
+          "members": [
+            "#bloom-presets",
+            "#preset-two-note-braid",
+            "#preset-rising-steps",
+            "#preset-five-color-star",
+            ".braid-preset-helper",
+            ".steps-preset-helper",
+            ".star-preset-helper"
+          ]
+        }
+      ],
+      "outside": [
+        "#sound-toggle",
+        "#play-blooms",
+        "#drawn-notes",
+        "#hold-blooms"
+      ],
+      "orders": [
+        [
+          "#sound-settings",
+          "#phrase-workbench"
+        ]
+      ],
+      "message": "sound choices precede the phrase and ready-made patterns wait on their own shelf"
+    }
+  ]
+}
