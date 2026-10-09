@@ -53,9 +53,9 @@
 #one-note-editor #edit-note-range-copy{min-height:44px;padding:0 16px;background:#06251f;border:1px solid #ffd166;border-radius:999px;color:#fffbe6;font:13px system-ui,sans-serif}
 #one-note-editor #edit-note-range-copy:disabled{opacity:.45;cursor:default}
 #one-note-editor #edit-note-range-copy:focus-visible{outline:3px solid #ffd166;outline-offset:3px}
-#one-note-editor #edit-note-range-keep-alternate,#one-note-editor #edit-note-range-drop-alternate,#one-note-editor #edit-note-range-ends-in{min-height:44px;padding:0 16px;background:transparent;border:1px solid #ffd166;border-radius:999px;color:#f7efcf;font:13px system-ui,sans-serif}
-#one-note-editor #edit-note-range-keep-alternate:disabled,#one-note-editor #edit-note-range-drop-alternate:disabled,#one-note-editor #edit-note-range-ends-in:disabled{opacity:.45;cursor:default}
-#one-note-editor #edit-note-range-keep-alternate:focus-visible,#one-note-editor #edit-note-range-drop-alternate:focus-visible,#one-note-editor #edit-note-range-ends-in:focus-visible{outline:3px solid #ffd166;outline-offset:3px}
+#one-note-editor #edit-note-range-keep-alternate,#one-note-editor #edit-note-range-drop-alternate,#one-note-editor #edit-note-range-ends-in,#one-note-editor #edit-note-range-changes{min-height:44px;padding:0 16px;background:transparent;border:1px solid #ffd166;border-radius:999px;color:#f7efcf;font:13px system-ui,sans-serif}
+#one-note-editor #edit-note-range-keep-alternate:disabled,#one-note-editor #edit-note-range-drop-alternate:disabled,#one-note-editor #edit-note-range-ends-in:disabled,#one-note-editor #edit-note-range-changes:disabled{opacity:.45;cursor:default}
+#one-note-editor #edit-note-range-keep-alternate:focus-visible,#one-note-editor #edit-note-range-drop-alternate:focus-visible,#one-note-editor #edit-note-range-ends-in:focus-visible,#one-note-editor #edit-note-range-changes:focus-visible{outline:3px solid #ffd166;outline-offset:3px}
 
 #seed-arrangement .arrange-family{width:100%;flex-basis:100%;min-width:0;margin:4px 0;padding:8px;border:1px solid #468a69;border-radius:8px;background:#12392d;color:#f7efcf}
 #seed-arrangement .arrange-family legend{padding:0 6px;color:#a7d46f;text-align:left;font:14px/1.4 system-ui,sans-serif}
