@@ -1,0 +1,53 @@
+{
+  "slug": "sunflower-keys",
+  "cases": {
+    "presets": {
+      "kind": "sun",
+      "message": "three pitch-matched phrases change their places without playing or replacing memory",
+      "rows": [
+        [
+          "preset-near-refrain",
+          "Near refrain",
+          [
+            0,
+            1,
+            5,
+            2,
+            10,
+            3,
+            15,
+            4
+          ]
+        ],
+        [
+          "preset-far-refrain",
+          "Far refrain",
+          [
+            200,
+            201,
+            205,
+            202,
+            210,
+            203,
+            215,
+            204
+          ]
+        ],
+        [
+          "preset-cross-refrain",
+          "Crossing refrain",
+          [
+            0,
+            201,
+            5,
+            202,
+            10,
+            203,
+            15,
+            204
+          ]
+        ]
+      ]
+    }
+  }
+}
