@@ -1009,7 +1009,7 @@
       "title": "Sunflower Keys — Separate ordering cutting and placing one passage",
       "depends": "694, 714, 715",
       "goal": "Two endpoint choices lead to three clearly different kinds of passage edit. Playing the chosen passage stays available without opening an editing drawer.",
-      "steps": "Inside existing #note-pair-edits add three closed sibling details section-order-tools, section-cut-tools, section-place-tools. Order gets edit-note-swap, edit-note-reverse-range, both range-roll buttons, range-sort-color, range-pairs, range-ends-in, range-outward and range-inward. Cut gets range-keep-alternate, range-drop-alternate, edit-note-keep-range, edit-note-remove-range, range-changes and range-copy. Place gets range-first, range-last, the label/select edit-note-position and edit-note-move-position. Use full id prefix edit-note- for every shorthand range-* above. Move each operation's existing help into its own door. Shared #edit-note-range-help stays directly in #note-pair-edits. Keep #edit-note-play-range and its help directly in #note-pair-edits outside the three doors. Keep #edit-note-partner and primary #edit-note choice where they already precede pair edits. All new helpers from prerequisites go with their own operation; never rewrite any of them. Reparent DOM only, no candidate/handler/history/audio change.",
+      "steps": "Inside existing #note-pair-edits add three closed sibling details section-order-tools, section-cut-tools, section-place-tools. Order gets edit-note-swap, edit-note-reverse-range, both range-roll buttons, range-sort-color, range-pairs, range-ends-in, range-outward and range-inward. Cut gets range-keep-alternate, range-drop-alternate, edit-note-keep-range, edit-note-remove-range, range-changes and range-copy. Place gets range-first, range-last and their existing range-place-help. The label/select edit-note-position, edit-note-move-position and edit-note-position-help operate on ONE chosen note, not the section: move these intact to existing #note-path-edits after its current buttons, outside #note-pair-edits. This deliberately corrects the misleading section placement without changing its handler. Use full id prefix edit-note- for every shorthand range-* above. Move each operation's existing help into its own door. Shared #edit-note-range-help stays directly in #note-pair-edits. Keep #edit-note-play-range and its help directly in #note-pair-edits outside the three doors. Keep #edit-note-partner and primary #edit-note choice where they already precede pair edits. All new helpers from prerequisites go with their own operation; never rewrite any of them. Reparent DOM only, no candidate/handler/history/audio change.",
       "groups": [
         {
           "id": "section-order-tools",
@@ -1047,10 +1047,7 @@
           "members": [
             "#edit-note-range-first",
             "#edit-note-range-last",
-            "#edit-note-position",
-            "#edit-note-move-position",
-            "#edit-note-range-place-help",
-            "#edit-note-position-help"
+            "#edit-note-range-place-help"
           ]
         }
       ],
@@ -1058,7 +1055,23 @@
         "#edit-note",
         "#edit-note-partner",
         "#edit-note-play-range",
+        "#edit-note-position",
+        "#edit-note-move-position",
         "#undo-drawing"
+      ],
+      "parents": [
+        [
+          "#edit-note-position",
+          "#note-path-edits"
+        ],
+        [
+          "#edit-note-move-position",
+          "#note-path-edits"
+        ],
+        [
+          "#edit-note-position-help",
+          "#note-path-edits"
+        ]
       ],
       "message": "passage ordering cutting and placing remain separate while endpoint choices and play stay outside"
     },
