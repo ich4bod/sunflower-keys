@@ -50,6 +50,9 @@
 #one-note-editor #edit-note-range-pairs{min-height:44px;padding:0 16px;background:transparent;border:1px solid #ffd166;border-radius:999px;color:#f7efcf;font:13px system-ui,sans-serif}
 #one-note-editor #edit-note-range-pairs:disabled{opacity:.45;cursor:default}
 #one-note-editor #edit-note-range-pairs:focus-visible{outline:3px solid #ffd166;outline-offset:3px}
+#one-note-editor #edit-note-range-copy{min-height:44px;padding:0 16px;background:#06251f;border:1px solid #ffd166;border-radius:999px;color:#fffbe6;font:13px system-ui,sans-serif}
+#one-note-editor #edit-note-range-copy:disabled{opacity:.45;cursor:default}
+#one-note-editor #edit-note-range-copy:focus-visible{outline:3px solid #ffd166;outline-offset:3px}
 #one-note-editor #edit-note-range-keep-alternate,#one-note-editor #edit-note-range-drop-alternate,#one-note-editor #edit-note-range-ends-in{min-height:44px;padding:0 16px;background:transparent;border:1px solid #ffd166;border-radius:999px;color:#f7efcf;font:13px system-ui,sans-serif}
 #one-note-editor #edit-note-range-keep-alternate:disabled,#one-note-editor #edit-note-range-drop-alternate:disabled,#one-note-editor #edit-note-range-ends-in:disabled{opacity:.45;cursor:default}
 #one-note-editor #edit-note-range-keep-alternate:focus-visible,#one-note-editor #edit-note-range-drop-alternate:focus-visible,#one-note-editor #edit-note-range-ends-in:focus-visible{outline:3px solid #ffd166;outline-offset:3px}
