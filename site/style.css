@@ -103,3 +103,6 @@
 #sound-settings>summary:focus-visible,#plant-patterns>summary:focus-visible{outline:3px solid #fffbe6;outline-offset:3px}
 #sound-settings:not([open])>:not(summary),#plant-patterns:not([open])>:not(summary){display:none}
 #plant-patterns .braid-preset-helper,#plant-patterns .steps-preset-helper,#plant-patterns .star-preset-helper{display:block;color:#f7efcf;font:14px/1.4 system-ui,sans-serif;margin:8px 0}
+#bloom-presets #preset-near-refrain,#bloom-presets #preset-far-refrain,#bloom-presets #preset-cross-refrain{min-height:45px;padding:0 14px;border:1px solid #ffd166;border-radius:10px;background:transparent;color:#f7efcf;font:16px system-ui,sans-serif}
+#bloom-presets #preset-near-refrain:focus-visible,#bloom-presets #preset-far-refrain:focus-visible,#bloom-presets #preset-cross-refrain:focus-visible{outline:3px solid #ffd166;outline-offset:3px}
+#plant-patterns #preset-refrain-help{display:block;color:#f7efcf;font:16px/1.4 system-ui,sans-serif;margin:8px 0}
