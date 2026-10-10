@@ -1,0 +1,47 @@
+{
+  "mode": "phrases",
+  "lane": 6,
+  "title": "Sunflower Keys \u2014 Plant three phrases that linger on a color before answering",
+  "message": "three lingering phrases distinguish repeated pitch from a held playback delay",
+  "rows": [
+    [
+      "lingering-low",
+      "Stay low, then answer",
+      [
+        0,
+        5,
+        10,
+        3,
+        8,
+        13
+      ]
+    ],
+    [
+      "lingering-middle",
+      "Stay in the middle, then fall",
+      [
+        2,
+        7,
+        12,
+        1,
+        6,
+        0
+      ]
+    ],
+    [
+      "lingering-return",
+      "Leave and return to one color",
+      [
+        0,
+        5,
+        1,
+        6,
+        3,
+        8,
+        10,
+        15
+      ]
+    ]
+  ],
+  "help": "Several seeds can sing the same pitch. These phrases repeat colors at the ordinary note pace; they do not lengthen a note. Choose Drawn to hear the supplied order."
+}
