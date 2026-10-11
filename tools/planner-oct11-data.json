@@ -1,0 +1,48 @@
+{
+  "mode": "phrases",
+  "lane": 6,
+  "depends": "813",
+  "title": "Sunflower Keys \u2014 Plant neighboring steps wide answers and returning places",
+  "message": "three seed-gap phrases keep places distinct from their repeated note colors",
+  "rows": [
+    [
+      "gap-close",
+      "Nearby rising colors",
+      [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    ],
+    [
+      "gap-wide",
+      "The same colors far apart",
+      [
+        0,
+        26,
+        52,
+        78,
+        104
+      ]
+    ],
+    [
+      "gap-return",
+      "Rise and return through new places",
+      [
+        0,
+        26,
+        52,
+        78,
+        104,
+        103,
+        77,
+        51,
+        25
+      ]
+    ]
+  ],
+  "help": "The first two phrases share the same five note colors but use different seed gaps. The third returns through new seeds. Choose Drawn to hear the order; planting stays silent.",
+  "helpID": "seed-gap-phrase-help"
+}
