@@ -1,0 +1,50 @@
+{
+  "slug": "sunflower-keys",
+  "mode": "phrases",
+  "lane": 6,
+  "title": "Sunflower Keys — Let two colors answer in a block a braid and a return",
+  "group": "Two colors, six places",
+  "helpID": "phrase-two-color-six-help",
+  "help": "These six seeds share only the lowest and highest note colors. A block waits before answering, a braid alternates, and a return comes home to the low color. The places remain distinct. Choose Drawn to hear these orders; planting is silent.",
+  "rows": [
+    [
+      "six-color-block",
+      "Three low, then three high",
+      [
+        0,
+        5,
+        10,
+        4,
+        9,
+        14
+      ]
+    ],
+    [
+      "six-color-braid",
+      "Low and high interleaved",
+      [
+        0,
+        4,
+        5,
+        9,
+        10,
+        14
+      ]
+    ],
+    [
+      "six-color-return",
+      "Low, high, then home",
+      [
+        0,
+        4,
+        9,
+        14,
+        10,
+        5
+      ]
+    ]
+  ],
+  "depends": "nothing",
+  "message": "phrases experiments keep the supplied choices silent and reversible",
+  "facts": "Every row uses exactly0/4/5/9/10/14 once; modulo5 means colors0 and4, three notes each. Drawn is the authored order; Radial sorts the same set. All unique seeds are within0..232. These are existing pentatonic palette colors, not a semitone or octave claim."
+}
