@@ -114,3 +114,6 @@
 #bloom-presets #preset-near-refrain,#bloom-presets #preset-far-refrain,#bloom-presets #preset-cross-refrain{min-height:45px;padding:0 14px;border:1px solid #ffd166;border-radius:10px;background:transparent;color:#f7efcf;font:16px system-ui,sans-serif}
 #bloom-presets #preset-near-refrain:focus-visible,#bloom-presets #preset-far-refrain:focus-visible,#bloom-presets #preset-cross-refrain:focus-visible{outline:3px solid #ffd166;outline-offset:3px}
 #plant-patterns #preset-refrain-help{display:block;color:#f7efcf;font:16px/1.4 system-ui,sans-serif;margin:8px 0}
+#bloom-presets #preset-two-color-answer,#bloom-presets #preset-five-color-return,#bloom-presets #preset-held-color{min-height:45px;padding:0 14px;border:1px solid #ffd166;border-radius:10px;background:transparent;color:#f7efcf;font:16px system-ui,sans-serif}
+#bloom-presets #preset-two-color-answer:focus-visible,#bloom-presets #preset-five-color-return:focus-visible,#bloom-presets #preset-held-color:focus-visible{outline:3px solid #ffd166;outline-offset:3px}
+#plant-patterns #preset-two-color-answer-help,#plant-patterns #preset-five-color-return-help,#plant-patterns #preset-held-color-help{display:block;color:#f7efcf;font:14px/1.4 system-ui,sans-serif;margin:8px 0}
