@@ -1,0 +1,51 @@
+{
+  "slug": "sunflower-keys",
+  "mode": "phrases",
+  "lane": 6,
+  "title": "Sunflower Keys \u2014 Let one color linger before the five-color answer",
+  "rows": [
+    [
+      "color-low-wide",
+      "One low color in widening places",
+      [
+        0,
+        10,
+        20,
+        30,
+        40
+      ]
+    ],
+    [
+      "color-high-close",
+      "One high color in neighboring bands",
+      [
+        4,
+        9,
+        14,
+        19,
+        24
+      ]
+    ],
+    [
+      "color-paired-rise",
+      "Each color answers itself",
+      [
+        0,
+        5,
+        1,
+        6,
+        2,
+        7,
+        3,
+        8,
+        4,
+        9
+      ]
+    ]
+  ],
+  "group": "Colors that linger",
+  "help": "A seed is a place, not a new pitch. The first two phrases stay on one of the five colors; the third gives each color two different places. Drawn preserves these entrances. Planting does not play.",
+  "helpID": "color-entrance-help",
+  "depends": "nothing",
+  "message": "phrases studies preserve their supplied values and independent memory"
+}

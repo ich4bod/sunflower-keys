@@ -1,0 +1,35 @@
+{
+  "slug": "sunflower-keys",
+  "lane": 6,
+  "title": "Sunflower Keys \u2014 Give a listener three questions about place and pitch",
+  "id": "three-questions-sunflower-keys",
+  "summary": "Try three questions about place and pitch",
+  "lead": "These are things to try in the garden, not tests to pass. Each answer waits behind its own door. Keep your drawing first if you want to return to it.",
+  "questions": [
+    {
+      "title": "Can a moved shape keep its notes?",
+      "prompt": "Plant the Five-note fan, then use Copy outward. Turn on Note colors. The second group sits farther out: did it acquire five new pitches?",
+      "answer": "No. Seeds 0\u20134 and 25\u201329 have the same residues modulo five, so they carry the same five note colors. The places change. Copying does not by itself play either group."
+    },
+    {
+      "title": "Can two places be one color?",
+      "prompt": "In the drawing, compare seeds 0 and 5. Then compare 0 and 1. Use the displayed seed identities rather than judging how far apart the dots look.",
+      "answer": "The first pair shares a color; the second does not. Note color comes from the seed number modulo five, not from the length of a line between blooms. Distance on the garden is not a pitch interval."
+    },
+    {
+      "title": "Does an inversion move the middle color?",
+      "prompt": "Choose two different notes in a drawing, then inspect Invert colors in this section. Which one of the five colors could stay where it is? Undo after trying it.",
+      "answer": "Within a five-seed band, residues 0 and 4 exchange, 1 and 3 exchange, and 2 stays fixed. Only the inclusive chosen section changes. A collision or a destination outside the garden rejects the entire press, rather than trimming the phrase."
+    }
+  ],
+  "facts": "Color index is seed modulo5; band reflection is 5*floor(n/5)+4\u2212n%5. Copy offset25 preserves residues. Guide references shipped841/834 and existing Copy outward. No equal-semitone claim.",
+  "palette": "#071f1a/#f7efcf/#103b2d/#ffd166",
+  "files": [
+    "site/index.html",
+    "site/style.css"
+  ],
+  "root": "main",
+  "anchor": "footer",
+  "url": "https://sunflower-keys.ichabod-crane.net/",
+  "message": "three authored sunflower-keys questions stay optional and leave the live experiment alone"
+}
