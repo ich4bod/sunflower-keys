@@ -1,0 +1,54 @@
+{
+  "slug": "sunflower-keys",
+  "mode": "phrases",
+  "lane": 6,
+  "title": "Sunflower Keys \u2014 Turn a rising phrase back through new places",
+  "group": "Color contours",
+  "helpID": "color-contour-help",
+  "help": "A color can return at a new seed. These phrases rise and fall through five colors, fall and rise, or skip the two intervening colors. Drawn preserves their order. Planting stays silent; the same color at a new place is not a longer held note.",
+  "rows": [
+    [
+      "contour-arch",
+      "Up five colors and down again",
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        7,
+        6,
+        5
+      ]
+    ],
+    [
+      "contour-valley",
+      "Down five colors and up again",
+      [
+        4,
+        3,
+        2,
+        1,
+        0,
+        6,
+        7,
+        8,
+        9
+      ]
+    ],
+    [
+      "contour-skips",
+      "A three-color arch",
+      [
+        0,
+        2,
+        4,
+        7,
+        5
+      ]
+    ]
+  ],
+  "depends": "nothing",
+  "message": "phrases comparisons preserve the authored experiment without replacing its memory"
+}
