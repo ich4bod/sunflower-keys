@@ -1,0 +1,15 @@
+{
+  "copysectionin": {
+    "lane": 6,
+    "depends": "nothing",
+    "title": "Sunflower Keys \u2014 Copy a chosen section inward as an earlier answer",
+    "message": "an inward section copy precedes its original colors and is one silent reversible drawing edit",
+    "buttons": [
+      "edit-note-range-copy-in"
+    ],
+    "copy": {
+      "edit-note-range-copy-in": "Copy this section inward",
+      "edit-note-range-copy-in-help": "Insert a copy twenty-five seeds inward just before the chosen section. Note colors and the section\u2019s order stay the same. If any destination is held or outside the garden, nothing is copied. Undo restores the drawing."
+    }
+  }
+}
