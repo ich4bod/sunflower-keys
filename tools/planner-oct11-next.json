@@ -1,0 +1,22 @@
+{
+  "sectioninvert": {
+    "copy": {
+      "edit-note-range-invert-colors": "Invert colors in this section",
+      "edit-note-range-invert-colors-help": "Reflect the five colors inside each seed band, only between the two choices. The middle color stays put. If a destination is held outside the section or beyond the garden, nothing moves. Undo restores the drawing."
+    },
+    "buttons": [
+      "edit-note-range-invert-colors"
+    ],
+    "message": "sectioninvert preserves unrelated state and answers its supplied native experiment"
+  },
+  "sectiontriples": {
+    "copy": {
+      "edit-note-range-triples": "Reverse threes in this section",
+      "edit-note-range-triples-help": "Count groups of three from the beginning of the chosen section and reverse each group. A final pair reverses too. Notes outside the section stay put; Undo restores the phrase."
+    },
+    "buttons": [
+      "edit-note-range-triples"
+    ],
+    "message": "sectiontriples preserves unrelated state and answers its supplied native experiment"
+  }
+}
