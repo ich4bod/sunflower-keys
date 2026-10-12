@@ -1,0 +1,59 @@
+{
+  "slug": "sunflower-keys",
+  "mode": "phrases",
+  "lane": 6,
+  "title": "Sunflower Keys — Hear three little calls change their order",
+  "group": "Three calls, nine places",
+  "helpID": "phrase-three-calls-help",
+  "help": "Each call visits the same three note colors. The three orders use the same nine seeds: calls together, colors together, or a reversed middle call. Choose Drawn to hear the difference. Planting stays silent.",
+  "rows": [
+    [
+      "calls-forward",
+      "Three rising calls",
+      [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12
+      ]
+    ],
+    [
+      "calls-colors",
+      "Three places for each color",
+      [
+        0,
+        5,
+        10,
+        1,
+        6,
+        11,
+        2,
+        7,
+        12
+      ]
+    ],
+    [
+      "calls-middle-back",
+      "The middle call turns back",
+      [
+        0,
+        1,
+        2,
+        7,
+        6,
+        5,
+        10,
+        11,
+        12
+      ]
+    ]
+  ],
+  "depends": "nothing",
+  "message": "phrases experiments keep their distinct rules and exact supplied choices",
+  "facts": "Each uses exactly the nine seeds0/1/2/5/6/7/10/11/12; modulo5 gives three each of colors0,1,2. The middle-back sequence changes only positions4–6 of the drawn order. No timing, semitone or longer-note claim."
+}

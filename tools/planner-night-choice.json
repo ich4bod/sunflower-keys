@@ -1,0 +1,69 @@
+{
+  "slug": "sunflower-keys",
+  "mode": "phrases",
+  "lane": 6,
+  "title": "Sunflower Keys — Hear three little calls change their order",
+  "group": "Three calls, nine places",
+  "helpID": "phrase-three-calls-help",
+  "help": "Each call visits the same three note colors. The three orders use the same nine seeds: calls together, colors together, or a reversed middle call. Choose Drawn to hear the difference. Planting stays silent.",
+  "rows": [
+    [
+      "calls-forward",
+      "Three rising calls",
+      [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12
+      ]
+    ],
+    [
+      "calls-colors",
+      "Three places for each color",
+      [
+        0,
+        5,
+        10,
+        1,
+        6,
+        11,
+        2,
+        7,
+        12
+      ]
+    ],
+    [
+      "calls-middle-back",
+      "The middle call turns back",
+      [
+        0,
+        1,
+        2,
+        7,
+        6,
+        5,
+        10,
+        11,
+        12
+      ]
+    ]
+  ],
+  "depends": "nothing",
+  "message": "phrases experiments keep their distinct rules and exact supplied choices",
+  "facts": "Each uses exactly the nine seeds0/1/2/5/6/7/10/11/12; modulo5 gives three each of colors0,1,2. The middle-back sequence changes only positions4–6 of the drawn order. No timing, semitone or longer-note claim.",
+  "picker": "lingering-phrase",
+  "noteID": "choice-note-sunflower-keys",
+  "noteLead": "About the selected choice: ",
+  "noteFallback": "Other choices keep their existing descriptions.",
+  "notes": [
+    "Three calls rise through colors zero, one and two. Each call starts at a new seed band; the pitches return, but the places do not.",
+    "Three low-color places come first, then three middle-color places, then three upper-color places. The same nine seeds now make color blocks rather than three calls.",
+    "The first and last calls still rise. Only the middle call runs from color two down to zero. Its three places are the same ones, in reversed drawn order."
+  ],
+  "noteMessage": "the selected sunflower-keys choice explains its own experiment without adding an action"
+}
