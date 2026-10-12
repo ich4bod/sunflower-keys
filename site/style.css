@@ -7,6 +7,7 @@
 #plant-patterns #lingering-phrase-help,#plant-patterns #seed-gap-phrase-help,#plant-patterns #color-entrance-help{display:block;color:#f7efcf;font:16px/1.4 system-ui,sans-serif;margin:8px 0}
 #plant-patterns #phrase-two-color-six-help{display:block;min-width:0;max-width:100%;overflow-wrap:anywhere;color:#f7efcf;font:16px/1.5 system-ui,sans-serif;margin:8px 0}
 #plant-patterns #phrase-same-ten-help{display:block;min-width:0;max-width:100%;overflow-wrap:anywhere;color:#f7efcf;font:16px/1.5 system-ui,sans-serif;margin:8px 0}
+#plant-patterns #color-contour-help{display:block;min-width:0;max-width:100%;overflow-wrap:anywhere;color:#b7d6bd;font:16px/1.5 system-ui,sans-serif;margin:8px 0}
 
 #arrange-space{min-height:44px;padding:0 16px;background:transparent;border:1px solid #ffd166;border-radius:999px;color:#f7efcf;font:13px system-ui,sans-serif}#arrange-space:disabled{opacity:.45;cursor:default}#arrange-space:focus-visible{outline:3px solid #ffd166;outline-offset:3px}#seed-arrangement .arrange-space-helper{display:block;color:#f7efcf;font-size:14px;line-height:1.4;margin:8px 0}
 
