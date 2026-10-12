@@ -148,3 +148,5 @@
 #three-questions-sunflower-keys h3{font:bold 18px/1.35 system-ui,sans-serif;margin:0}
 #three-questions-sunflower-keys p{margin:8px 0;overflow-wrap:anywhere}
 #three-questions-sunflower-keys>section>details{margin:8px 0;padding:8px;border:1px solid #4fa66f;border-radius:6px;background:#103b2d;color:#f7efcf}
+#three-questions-sunflower-keys>section>details>summary{display:flex;align-items:center;min-height:45px;gap:8px;cursor:pointer}
+#three-questions-sunflower-keys>section>details>summary:focus-visible{outline:3px solid #ffd166;outline-offset:3px}

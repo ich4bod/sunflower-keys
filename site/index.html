@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Sunflower Keys</title>
-<link rel="stylesheet" href="/style.css?v=140">
+<link rel="stylesheet" href="/style.css?v=141">
 </head>
 <body>
 <main>
@@ -14,7 +14,7 @@
 <p id="keyboard-help">Keyboard: focus the garden, then press 1–5 for five notes. Hold and Erase work here too.</p>
 <div class="note-color-controls"><button id="note-colors" aria-pressed="false">Note colors</button><div id="note-legend" hidden><span class="note-item"><span class="note-dot" style="background:#ffd166" aria-hidden="true"></span><span class="note-name">C</span></span><span class="note-item"><span class="note-dot" style="background:#ef8f6a" aria-hidden="true"></span><span class="note-name">D</span></span><span class="note-item"><span class="note-dot" style="background:#a7d46f" aria-hidden="true"></span><span class="note-name">E</span></span><span class="note-item"><span class="note-dot" style="background:#7bc9d6" aria-hidden="true"></span><span class="note-name">G</span></span><span class="note-item"><span class="note-dot" style="background:#c2a4e8" aria-hidden="true"></span><span class="note-name">A</span></span></div><p class="note-color-helper">Five colors, five notes. The pattern repeats through the garden.</p></div>
 <details id="three-questions-sunflower-keys">
-<summary>Try three questions about place and pitch</summary>
+<summary>Questions about place and pitch</summary>
 <p>These are things to try in the garden, not tests to pass. Each answer waits behind its own door. Keep your drawing first if you want to return to it.</p>
 <section>
 <h3>Can a moved shape keep its notes?</h3>
@@ -38,6 +38,30 @@
 <details>
 <summary>Read an answer</summary>
 <p>Within a five-seed band, residues 0 and 4 exchange, 1 and 3 exchange, and 2 stays fixed. Only the inclusive chosen section changes. A collision or a destination outside the garden rejects the entire press, rather than trimming the phrase.</p>
+</details>
+</section>
+<section>
+<h3>Can an inward trip keep one pitch?</h3>
+<p>Choose One color from center out, then One color from edge in. Listen using Drawn order, rather than assuming inward motion is a falling scale.</p>
+<details>
+<summary>Read an answer</summary>
+<p>All six seeds have residue 4 modulo five. Their note color stays the same in either direction. The trip changes which place lights next, not which of the five pitches belongs to that place.</p>
+</details>
+</section>
+<section>
+<h3>Does a braid add places?</h3>
+<p>Compare Three low notes then three high with Low and high alternate. Keep the same listening order for both.</p>
+<details>
+<summary>Read an answer</summary>
+<p>Both drawings use seeds 0, 4, 5, 9, 10 and 14. The braid changes their order, not their membership. Drawn follows that order; choosing another playback order asks a different question.</p>
+</details>
+</section>
+<section>
+<h3>Can ten places contain only five colors?</h3>
+<p>Turn on Note colors and choose Two arches together. Count places and colors separately before playing.</p>
+<details>
+<summary>Read an answer</summary>
+<p>Seeds 0 through 9 are ten distinct places. Each residue modulo five occurs twice, so there are five note colors. Repeated color is not repeated place; this drawing does not introduce a second octave.</p>
 </details>
 </section>
 </details>
