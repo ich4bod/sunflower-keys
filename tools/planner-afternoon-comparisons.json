@@ -1,0 +1,182 @@
+{
+  "one-color-places": {
+    "slug": "sunflower-keys",
+    "mode": "phrases",
+    "lane": 6,
+    "depends": 908,
+    "title": "Sunflower Keys \u2014 Trace one note color through three spatial orders",
+    "group": "One color, six places",
+    "rows": [
+      [
+        "moss-place-out",
+        "One color from center out",
+        [
+          4,
+          9,
+          14,
+          19,
+          24,
+          29
+        ]
+      ],
+      [
+        "moss-place-in",
+        "One color from edge in",
+        [
+          29,
+          24,
+          19,
+          14,
+          9,
+          4
+        ]
+      ],
+      [
+        "moss-place-fold",
+        "One color in folded pairs",
+        [
+          4,
+          29,
+          9,
+          24,
+          14,
+          19
+        ]
+      ]
+    ],
+    "notes": [
+      "Six Moss seeds travel outward in Drawn order. Their note color is the same; only places change.",
+      "The same six Moss seeds travel inward in Drawn order. This is not a falling pitch scale.",
+      "The same six Moss seeds alternate inner and outer places in Drawn order. Planting stays silent."
+    ],
+    "noteID": "choice-note-sunflower-keys",
+    "noteLead": "About the selected choice: ",
+    "picker": "lingering-phrase",
+    "facts": "All seeds are unique and modulo5=4 (Moss). Same six-seed set in every row, constant pitch color; physical positions differ. No equal-loudness claim.",
+    "message": "one-color-places choices preserve exact data silent selection and independent memory"
+  },
+  "two-color-edges": {
+    "slug": "sunflower-keys",
+    "mode": "phrases",
+    "lane": 6,
+    "depends": 908,
+    "title": "Sunflower Keys \u2014 Put the same two note colors into a call an answer and a braid",
+    "group": "Two colors, two ends",
+    "rows": [
+      [
+        "ends-call",
+        "Three low notes then three high",
+        [
+          0,
+          5,
+          10,
+          14,
+          9,
+          4
+        ]
+      ],
+      [
+        "ends-answer",
+        "Three high notes then three low",
+        [
+          4,
+          9,
+          14,
+          10,
+          5,
+          0
+        ]
+      ],
+      [
+        "ends-braid",
+        "Low and high alternate",
+        [
+          0,
+          4,
+          5,
+          9,
+          10,
+          14
+        ]
+      ]
+    ],
+    "notes": [
+      "Drawn plays three first-color notes then three fifth-color notes. The high group visits its outer place first.",
+      "Drawn starts with three fifth-color notes then answers with three first-color notes. The six places are unchanged.",
+      "Drawn alternates first and fifth note colors across the same six places. No new timing or voices are added."
+    ],
+    "noteID": "choice-note-sunflower-keys",
+    "noteLead": "About the selected choice: ",
+    "picker": "lingering-phrase",
+    "facts": "Modulo5 gives three color0 and three color4 seeds. All rows have set0,4,5,9,10,14; fixed cardinality6. Drawn matters; Up follows the ordinary order instead.",
+    "message": "two-color-edges choices preserve exact data silent selection and independent memory"
+  },
+  "two-arches": {
+    "slug": "sunflower-keys",
+    "mode": "phrases",
+    "lane": 6,
+    "depends": 908,
+    "title": "Sunflower Keys \u2014 Answer one five-color arch with another",
+    "group": "Two five-color arches",
+    "rows": [
+      [
+        "arches-together",
+        "Two arches together",
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          9,
+          8,
+          7,
+          6,
+          5
+        ]
+      ],
+      [
+        "arches-interleave",
+        "Two arches interleaved",
+        [
+          0,
+          9,
+          1,
+          8,
+          2,
+          7,
+          3,
+          6,
+          4,
+          5
+        ]
+      ],
+      [
+        "arches-return",
+        "The second arch rises too",
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      ]
+    ],
+    "notes": [
+      "Drawn rises through five colors, then falls through the second five places. All ten seeds remain distinct.",
+      "Drawn interleaves the rising inner arch and falling outer arch. This changes order, not note duration.",
+      "Drawn makes two rising five-color calls. The same ten seeds and all five colors remain."
+    ],
+    "noteID": "choice-note-sunflower-keys",
+    "noteLead": "About the selected choice: ",
+    "picker": "lingering-phrase",
+    "facts": "Each set is0..9 with each modulo5 color twice. First two rows preserve internally ordered subsequences0..4 and9..5, while third reverses second arch. No octave claim.",
+    "message": "two-arches choices preserve exact data silent selection and independent memory"
+  }
+}

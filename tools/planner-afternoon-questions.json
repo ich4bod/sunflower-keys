@@ -1,0 +1,68 @@
+{
+  "slug": "sunflower-keys",
+  "lane": 6,
+  "title": "Sunflower Keys \u2014 Give a listener three questions about place and pitch",
+  "id": "three-questions-sunflower-keys",
+  "summary": "Questions about place and pitch",
+  "lead": "These are things to try in the garden, not tests to pass. Each answer waits behind its own door. Keep your drawing first if you want to return to it.",
+  "questions": [
+    {
+      "title": "Can a moved shape keep its notes?",
+      "prompt": "Plant the Five-note fan, then use Copy outward. Turn on Note colors. The second group sits farther out: did it acquire five new pitches?",
+      "answer": "No. Seeds 0\u20134 and 25\u201329 have the same residues modulo five, so they carry the same five note colors. The places change. Copying does not by itself play either group."
+    },
+    {
+      "title": "Can two places be one color?",
+      "prompt": "In the drawing, compare seeds 0 and 5. Then compare 0 and 1. Use the displayed seed identities rather than judging how far apart the dots look.",
+      "answer": "The first pair shares a color; the second does not. Note color comes from the seed number modulo five, not from the length of a line between blooms. Distance on the garden is not a pitch interval."
+    },
+    {
+      "title": "Does an inversion move the middle color?",
+      "prompt": "Choose two different notes in a drawing, then inspect Invert colors in this section. Which one of the five colors could stay where it is? Undo after trying it.",
+      "answer": "Within a five-seed band, residues 0 and 4 exchange, 1 and 3 exchange, and 2 stays fixed. Only the inclusive chosen section changes. A collision or a destination outside the garden rejects the entire press, rather than trimming the phrase."
+    },
+    {
+      "title": "Can an inward trip keep one pitch?",
+      "prompt": "Choose One color from center out, then One color from edge in. Listen using Drawn order, rather than assuming inward motion is a falling scale.",
+      "answer": "All six seeds have residue 4 modulo five. Their note color stays the same in either direction. The trip changes which place lights next, not which of the five pitches belongs to that place."
+    },
+    {
+      "title": "Does a braid add places?",
+      "prompt": "Compare Three low notes then three high with Low and high alternate. Keep the same listening order for both.",
+      "answer": "Both drawings use seeds 0, 4, 5, 9, 10 and 14. The braid changes their order, not their membership. Drawn follows that order; choosing another playback order asks a different question."
+    },
+    {
+      "title": "Can ten places contain only five colors?",
+      "prompt": "Turn on Note colors and choose Two arches together. Count places and colors separately before playing.",
+      "answer": "Seeds 0 through 9 are ten distinct places. Each residue modulo five occurs twice, so there are five note colors. Repeated color is not repeated place; this drawing does not introduce a second octave."
+    }
+  ],
+  "facts": "Color index is seed modulo5; band reflection is 5*floor(n/5)+4\u2212n%5. Copy offset25 preserves residues. Guide references shipped841/834 and existing Copy outward. No equal-semitone claim.",
+  "palette": "#071f1a/#f7efcf/#103b2d/#ffd166",
+  "files": [
+    "site/index.html",
+    "site/style.css"
+  ],
+  "root": "main",
+  "anchor": "footer",
+  "url": "https://sunflower-keys.ichabod-crane.net/",
+  "message": "six sunflower-keys questions keep their answers optional and leave the experiment unchanged",
+  "oldSummary": "Try three questions about place and pitch",
+  "appendQuestions": [
+    {
+      "title": "Can an inward trip keep one pitch?",
+      "prompt": "Choose One color from center out, then One color from edge in. Listen using Drawn order, rather than assuming inward motion is a falling scale.",
+      "answer": "All six seeds have residue 4 modulo five. Their note color stays the same in either direction. The trip changes which place lights next, not which of the five pitches belongs to that place."
+    },
+    {
+      "title": "Does a braid add places?",
+      "prompt": "Compare Three low notes then three high with Low and high alternate. Keep the same listening order for both.",
+      "answer": "Both drawings use seeds 0, 4, 5, 9, 10 and 14. The braid changes their order, not their membership. Drawn follows that order; choosing another playback order asks a different question."
+    },
+    {
+      "title": "Can ten places contain only five colors?",
+      "prompt": "Turn on Note colors and choose Two arches together. Count places and colors separately before playing.",
+      "answer": "Seeds 0 through 9 are ten distinct places. Each residue modulo five occurs twice, so there are five note colors. Repeated color is not repeated place; this drawing does not introduce a second octave."
+    }
+  ]
+}
