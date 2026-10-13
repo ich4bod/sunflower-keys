@@ -1,0 +1,61 @@
+{
+  "phrases": {
+    "mode": "phrases",
+    "group": "Two rounds with missing colors",
+    "rows": [
+      [
+        "partial-rounds",
+        "Five colors then only three",
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        "partial-colors",
+        "Group the returning colors",
+        [
+          0,
+          5,
+          1,
+          6,
+          2,
+          7,
+          3,
+          4
+        ]
+      ],
+      [
+        "partial-middle",
+        "Begin in the middle of eight",
+        [
+          3,
+          4,
+          2,
+          5,
+          1,
+          6,
+          0,
+          7
+        ]
+      ]
+    ],
+    "notes": [
+      "Eight physical seeds give two visits to colors zero, one and two, but only one to colors three and four. Drawn keeps the incomplete second round.",
+      "The same eight seeds are grouped by color. The two colors without a second visit are not supplied invented notes.",
+      "The same eight places begin at the earlier middle drawn position, then alternate outward in the sequence. This is drawn order, not distance from the garden center."
+    ],
+    "facts": "Eight unique seeds, set0..7; modulo5 counts[2,2,2,1,1]. Drawn sequence matters; planting stays silent.",
+    "dep": 970,
+    "picker": "lingering-phrase",
+    "noteID": "choice-note-sunflower-keys",
+    "noteLead": "About the selected choice: ",
+    "message": "phrases comparisons keep exact choices silent and reversible"
+  }
+}
