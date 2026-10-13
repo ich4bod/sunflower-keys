@@ -59,7 +59,7 @@
   "picker": "lingering-phrase",
   "noteID": "choice-note-sunflower-keys",
   "noteLead": "About the selected choice: ",
-  "noteFallback": "Other choices keep their existing descriptions.",
+  "noteFallback": "",
   "notes": [
     "Three calls rise through colors zero, one and two. Each call starts at a new seed band; the pitches return, but the places do not.",
     "Three low-color places come first, then three middle-color places, then three upper-color places. The same nine seeds now make color blocks rather than three calls.",
