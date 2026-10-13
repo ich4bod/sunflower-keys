@@ -1,0 +1,67 @@
+{
+  "phrases": {
+    "mode": "phrases",
+    "picker": "lingering-phrase",
+    "noteID": "choice-note-sunflower-keys",
+    "noteLead": "About the selected choice: ",
+    "slug": "sunflower-keys",
+    "lane": 6,
+    "title": "Sunflower Keys — Three low colors make a nine-note answer",
+    "group": "Three colors, nine places",
+    "rows": [
+      [
+        "three-color-rounds",
+        "Three small rising rounds",
+        [
+          0,
+          1,
+          2,
+          5,
+          6,
+          7,
+          10,
+          11,
+          12
+        ]
+      ],
+      [
+        "three-color-blocks",
+        "Three places for each low color",
+        [
+          0,
+          5,
+          10,
+          1,
+          6,
+          11,
+          2,
+          7,
+          12
+        ]
+      ],
+      [
+        "three-color-fold",
+        "The outer round answers inward",
+        [
+          0,
+          1,
+          2,
+          10,
+          11,
+          12,
+          7,
+          6,
+          5
+        ]
+      ]
+    ],
+    "notes": [
+      "Nine distinct seeds use only the three lowest colors. Drawn order makes three short rising rounds; the two higher colors never sound.",
+      "The same nine seeds now keep each color together. Changing drawn order changes the phrase, not the set of places or its three pitches.",
+      "The first round rises near the center, the outer round rises next, and the middle round returns in reverse. Planting is silent; choose Drawn to hear that order."
+    ],
+    "facts": "Source rule in app.js: pitch depends on index modulo five, not distance from center. Each list contains the same nine distinct integers; residue counts are 3,3,3,0,0. Preserve current root/register/tempo/voice/play-order/reverse/bounce.",
+    "dep": 992,
+    "message": "phrases afternoon relationships preserve exact choices and independent memory"
+  }
+}
