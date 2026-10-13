@@ -1,0 +1,82 @@
+{
+  "study": {
+    "mode": "phrases",
+    "group": "Three five-color rounds",
+    "rows": [
+      [
+        "rounds-bands",
+        "Three rising rounds",
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      ],
+      [
+        "rounds-colors",
+        "Three places for each color",
+        [
+          0,
+          5,
+          10,
+          1,
+          6,
+          11,
+          2,
+          7,
+          12,
+          3,
+          8,
+          13,
+          4,
+          9,
+          14
+        ]
+      ],
+      [
+        "rounds-middle-falls",
+        "The middle round falls",
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          9,
+          8,
+          7,
+          6,
+          5,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      ]
+    ],
+    "notes": [
+      "Drawn visits all fifteen places in three rising five-color rounds. Each color returns at a different seed.",
+      "Drawn groups the same fifteen places by color. Three equal-color visits come before the next color; planting adds no sound.",
+      "Only the middle five-color round falls. The first and last rise, and all fifteen physical seeds are unchanged."
+    ],
+    "noteID": "choice-note-sunflower-keys",
+    "noteLead": "About the selected choice: ",
+    "picker": "lingering-phrase",
+    "facts": "Each row is exactly the set0..14, cardinality15. Modulo5 is note color, each color3visits. Drawn order matters; no new pitch/timing claim.",
+    "dep": 934,
+    "message": "phrases histories keep their authored relationship and independent memory"
+  }
+}
