@@ -1,0 +1,58 @@
+{
+  "phrases": {
+    "mode": "phrases",
+    "group": "One high answer among six low calls",
+    "rows": [
+      [
+        "rare-last",
+        "The high answer arrives last",
+        [
+          0,
+          5,
+          10,
+          15,
+          20,
+          25,
+          4
+        ]
+      ],
+      [
+        "rare-middle",
+        "The high answer splits the calls",
+        [
+          0,
+          5,
+          10,
+          4,
+          15,
+          20,
+          25
+        ]
+      ],
+      [
+        "rare-first",
+        "The high answer arrives first",
+        [
+          4,
+          0,
+          5,
+          10,
+          15,
+          20,
+          25
+        ]
+      ]
+    ],
+    "notes": [
+      "Six distinct seeds share color zero; the only color-four seed arrives last. Drawn keeps that wait. No note is lengthened.",
+      "The same seven seeds put the high color between two groups of three low calls. The low places keep their order.",
+      "The same high seed begins the phrase instead of answering it. Six low calls follow; planting does not play."
+    ],
+    "facts": "Seeds0,5,10,15,20,25 all modulo5=0;seed4 modulo5=4. Each row seven unique identical memberseeds; all begin ordinary note duration/pace, no holds.",
+    "dep": 970,
+    "picker": "lingering-phrase",
+    "noteID": "choice-note-sunflower-keys",
+    "noteLead": "About the selected choice: ",
+    "message": "phrases noon comparisons preserve exact choices silent selection and independent memory"
+  }
+}
